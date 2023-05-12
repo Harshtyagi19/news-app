@@ -28,6 +28,7 @@ export class News extends Component {
         }
         document.title = `${this.capitalizeFirstLetter(this.props.category)} - NewsApp`;
     }
+    
 
     async updateNews() {
 
